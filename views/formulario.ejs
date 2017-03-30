@@ -14,7 +14,11 @@
 <body class="container">
 	<div class="jumbotron">
 		<h1>Lista de Tareas</h1>
-		<ul></ul>
+		<ul class="list-group">
+			<%tareas.forEach(function(tarea, id){%>
+				<li class="list-group-item"><%= tarea %> <a class="badge" href="/borrar/<%= id %>">x</a></li>
+			<%}) %>
+		</ul>
 
 		<form action="adicionar/" method="POST">
 			<p>
