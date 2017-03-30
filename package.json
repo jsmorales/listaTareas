@@ -1,0 +1,29 @@
+{
+  "name": "lista_de_tareas",
+  "version": "1.0.0",
+  "description": "App para listar las tareas que estén pendientes a ejecutar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmorales/listaTareas.git"
+  },
+  "keywords": [
+    "lista",
+    "tareas"
+  ],
+  "author": "jsmorales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsmorales/listaTareas/issues"
+  },
+  "homepage": "https://github.com/jsmorales/listaTareas#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-session": "^2.0.0-beta.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}
